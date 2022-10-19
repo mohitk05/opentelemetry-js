@@ -50,5 +50,6 @@ export {
 
 import { MetricsAPI } from './api/metrics';
 
+export type { MetricsAPI } from './api/metrics';
 /** Entrypoint for metrics API */
 export const metrics = MetricsAPI.getInstance();
